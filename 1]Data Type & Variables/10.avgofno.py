@@ -1,0 +1,7 @@
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+
+sum = num1 + num2
+avg = sum / 2
+
+print("The average of the numbers is : ", avg)
