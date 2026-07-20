@@ -1,5 +1,8 @@
-f = open("myfile.txt", "w")
-text = f.write("Hello Jalaj")
+f = open("myfile.txt", "a")
+f.write("Hello Jalaj")
 # text = f.read()
-print(text)
+# print(text)
 f.close()
+
+with open("myfile.txt", "a") as f:
+    f.write("heyy I am inside with")
