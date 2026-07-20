@@ -1,0 +1,5 @@
+f = open("myfile.txt", "w")
+text = f.write("Hello Jalaj")
+# text = f.read()
+print(text)
+f.close()
